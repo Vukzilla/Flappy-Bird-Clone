@@ -102,8 +102,8 @@ int main(void)
             DrawTexture(background_night, 0, 0, WHITE);
         }
 
-        if (rng_bird == 1)                  // Mogao si da izbegnes bool-ove i da samo proveravas koju vrednost ima rng_bird kao
-        {                                   // sto si uradio za rng_bg, ali nije neophodno
+        if (rng_bird == 1)
+        {                  
             red = true;
             blue = false;
             yellow = false;
